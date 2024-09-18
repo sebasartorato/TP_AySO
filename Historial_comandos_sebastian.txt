@@ -1,0 +1,132 @@
+whoami
+sudo su
+exit
+shutdown
+shutdown -c
+exit
+sudo su
+clear
+pwd
+cd
+mkdir repogit
+cd repogit
+git clone https://github.com/sebasartorato/TP_AySO.git
+cd TP_AySO/
+ls -l
+ls
+ls -a
+ls -r
+clear
+pwd
+cat /etc/os-release
+home
+clear
+cat /etc/os-release
+man grep
+grep HOME_URL/etc/os-release
+clear
+man grep
+grep -i HOME_URL/etc/os-release
+clear
+man grep
+grep -i /etc
+grep -i HOME_URL/etc/os-release
+exit
+sudo
+clear
+sudo su
+exit
+whoami
+clear
+ls -l
+rm datos_usuario
+rm datos_usuario.txt
+ls -l
+clear
+rm datos_usuario.txt 
+ls -l
+clear
+cd repogit/
+cd TP_AySO/
+clear
+echo "Usuario=$(whoami)">datos_usuario.txt
+ls -la
+cat datos_usuario.txt 
+git add .
+git config --global user.email "sebastiansartorato@gmail.com"
+git config --global usename "sebastian"
+git config --global username "sebastian"
+git config --global user.name "sebastian"
+git commit -m "ADD: agregado1erejercicio sobredatos_usuarios.txt"
+git status
+clear
+cpuinfo
+clear
+sudo apt install
+sudo su
+clear
+touch "lista_ordenada.txt"
+ls -l
+cat /etc/passwd
+clear
+man grep
+cat /etc/passwd | grep -v "nologin" | head
+cat /etc/passwd | grep -v "nologin" | head -n10
+cat -l /etc/passwd | grep -v "nologin" | head -n10
+cat -l /etc/passwd | grep -v "nologin" | head -n10}
+cat -l /etc/passwd | grep -v "nologin" | head -n10
+cat /etc/passwd | grep -v "nologin" | head -n10
+sort man
+man sort
+cat /etc/passwd | grep -v "nologin" | head -n10
+cat /etc/passwd | grep -v "nologin" | head -n10 >> lista_ordenada.txt
+cat lista_ordenada.txt 
+sort -k7 lista_ordenada.txt 
+sort -t':' -k7 archivo~
+sort -t':' -k7 lista_ordenada.txt 
+cat lista_ordenada.txt 
+cat /etc/passwd | grep -v "nologin" | head -n10 | sort -t':' -k7
+cat /etc/passwd | grep -v "nologin" | head -n10 | sort -t':' -k7 > lista_ordenada.txt 
+clear
+cat lista_ordenada.txt 
+git add .
+git config --global "sebastiansartorato@gmail.com"
+git config --global user.email "sebastiansartorato@gmail.com"
+git config --global user.name "sebastian"
+git commit -m "ADD: Listado de usuarios ordenada"
+git status
+man dump traffic
+clear
+echo comando_dump_net
+ls -l
+clear
+touch comando_dump_net
+ls -l
+rm comando_dump_net 
+t
+ls -l
+clear
+touch comando_dump_net
+echo "tcpdump" >> comando_dump_net 
+echo comando_dump_net 
+cat comando_dump_net 
+echo man -k dump >> comando_dump_net 
+cat comando_dump_net 
+git add .
+git commit -m "ADD: Comando para Capturar y analizar el tráfico de red"
+git status
+ls -l
+cat << EOF >> README.md
+Alumno: Sebastian Sartorato
+Division: C314
+Turno: Noche
+EOF
+
+cat README.md 
+nano README.md 
+cat README.md 
+git add .
+ls -l
+git commit -m "docs: actualizar README.md con información del alumno"
+git status
+history -a
