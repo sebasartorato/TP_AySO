@@ -1,1 +1,2 @@
 Usuario=sebastian
+Cpuinfo Version: 9.0.0
