@@ -1,0 +1,5 @@
+root:x:0:0:Super User:/root:/bin/bash
+sebastian:x:1000:1000:sebastian sartorato:/home/sebastian:/bin/bash
+sync:x:5:0:sync:/sbin:/bin/sync
+halt:x:7:0:halt:/sbin:/sbin/halt
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
